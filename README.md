@@ -125,9 +125,13 @@ Create an index, e.g., soc_index.
 
 Use Search & Reporting to test your SPL queries.
 ![image alt](https://github.com/dhrumi06/FUTURE_CS_02/blob/9e3436304f8fc378991d1e8422978e2aff9fd9b0/Screenshots/s9.png)
+
 ![image alt](https://github.com/dhrumi06/FUTURE_CS_02/blob/9e3436304f8fc378991d1e8422978e2aff9fd9b0/Screenshots/t1.png)
+
 ![image alt](https://github.com/dhrumi06/FUTURE_CS_02/blob/9e3436304f8fc378991d1e8422978e2aff9fd9b0/Screenshots/t2.png)
+
 ![image alt](https://github.com/dhrumi06/FUTURE_CS_02/blob/9e3436304f8fc378991d1e8422978e2aff9fd9b0/Screenshots/t3.png)
+
 
 Save searches as Dashboard Panels to visualize results.
 ![image alt](https://github.com/dhrumi06/FUTURE_CS_02/blob/9e3436304f8fc378991d1e8422978e2aff9fd9b0/Screenshots/t4.png)
