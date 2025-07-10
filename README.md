@@ -115,15 +115,18 @@ INC003	Suspicious port used	  network_logs	   192.168.1.20	      Medium	        
 # 🚩 How to Run This Project
 
 Install Splunk (free trial) locally or on a VM.
+
 ![image alt](https://github.com/dhrumi06/FUTURE_CS_02/blob/45d10026ea255490af568c4b89023c9328c0cfe9/Screenshots/s1.png)
 
 Upload sample log files via Settings > Add Data > Upload.
+
 ![image alt](https://github.com/dhrumi06/FUTURE_CS_02/blob/9e3436304f8fc378991d1e8422978e2aff9fd9b0/Screenshots/s2.png)
 ![image alt](https://github.com/dhrumi06/FUTURE_CS_02/blob/9e3436304f8fc378991d1e8422978e2aff9fd9b0/Screenshots/s3.png)
 
 Create an index, e.g., soc_index.
 
 Use Search & Reporting to test your SPL queries.
+
 ![image alt](https://github.com/dhrumi06/FUTURE_CS_02/blob/9e3436304f8fc378991d1e8422978e2aff9fd9b0/Screenshots/s9.png)
 
 ![image alt](https://github.com/dhrumi06/FUTURE_CS_02/blob/9e3436304f8fc378991d1e8422978e2aff9fd9b0/Screenshots/t1.png)
@@ -134,9 +137,11 @@ Use Search & Reporting to test your SPL queries.
 
 
 Save searches as Dashboard Panels to visualize results.
+
 ![image alt](https://github.com/dhrumi06/FUTURE_CS_02/blob/9e3436304f8fc378991d1e8422978e2aff9fd9b0/Screenshots/t4.png)
 
 Monitor and analyze alerts from the dashboard.
+
 ![image alt](https://github.com/dhrumi06/FUTURE_CS_02/blob/9e3436304f8fc378991d1e8422978e2aff9fd9b0/Screenshots/t5.png)
 
 
