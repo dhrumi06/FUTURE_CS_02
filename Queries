@@ -1,0 +1,45 @@
+## 🔍 Example  Queries
+
+# SOC Index Logs
+index=soc_index
+
+# Filter by Source Type
+index=soc_index sourcetype="auth.logs"
+index=soc_index sourcetype="network_logs"
+index=soc_index sourcetype="malware_logs"
+index=soc_index sourcetype="firewall_logs"
+
+# Find failed logins
+index=soc_index sourcetype="auth_logs" status=failed
+
+# Brute force attempts from same IP
+index=soc_index sourcetype="auth_logs" status=failed 
+| stats count by user, ip | where count >= 3
+
+# Try filtering for unusual ports:
+index=soc_index sourcetype="network_logs" dest_port=4444
+
+# High & Critical Malware Alerts
+index=soc_index sourcetype="malware_logs" severity=High OR severity=Critical
+
+# Blocked connections by source IP
+index=soc_index sourcetype="firewall_logs" action=Blocked 
+
+# External Authentication Attempts
+index=soc_index sourcetype="auth.logs" 
+| search NOT ip="192.168.*"
+
+# Frequent Firewall Blocks
+index=soc_index sourcetype="firewall_logs" action=Blocked
+| stats count by src_ip
+| sort – count
+
+# Failed Logins by User
+index=soc_index sourcetype="auth_logs" status=failed 
+| stats count by user
+
+# Failed Malware Remediation
+index=soc_index sourcetype="malware_logs" status=Failed
+
+# Unusual Network Port
+index=soc_index sourcetype="network_logs" NOT dest_port=22 NOT dest_port=80 NOT dest_port=443
