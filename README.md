@@ -127,9 +127,10 @@ Save searches as Dashboard Panels to visualize results.
 Monitor and analyze alerts from the dashboard.
 
 
-
-
-
-
-
-
+## Future Enhancements  
+• Automate log ingestion using forwarders.  
+• Add real-time alert notifications with emails or Slack integration.  
+• Integrate threat intelligence feeds to correlate IOCs.  
+• Implement playbooks for automated incident response actions.  
+• Improve dashboards with geo-location mapping and advanced visualizations.  
+• Expand to additional log sources (Windows Event Logs, Cloud Logs).  
