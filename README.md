@@ -2,22 +2,7 @@
 
 # SECURITY ALERT MONITORING & INCIDENT RESPONSE
 
-# 📌 About the Project
-
-It simulates the day-to-day tasks of a Security Operations Center (SOC) analyst. The main goal is to monitor security alerts, analyze suspicious activities, and draft incident response actions to help an organization stay secure against cyber threats.
-
-# ✅ Tasks Performed
-
-- **Set up a SIEM Tool:** Splunk Free Trial used to ingest, parse, and analyze log data.
-- **Prepared & Uploaded Logs:** Created and uploaded simulated logs (`auth.log`, `network.log`, `malware.log`, `firewall.log`).
-- **Analyzed Security Alerts:** Ran SPL (Search Processing Language) queries to detect suspicious activities.
-- **Classified Incidents:** Categorized alerts by severity (High, Medium, Low) for triage.
-- **Created Visual Dashboards:** Built Splunk dashboards to visualize alerts and trends.
-- **Drafted Incident Response:** Prepared a detailed Incident Response Report with evidence, impact, and remediation suggestions.
-
-# SOC Alert Monitoring & Incident Response Simulation
-
-## 📌 Project Objective
+## 📌 Objective
 
 The main goal is to monitor security alerts, analyze suspicious activities, and draft incident response actions to help an organization stay secure against cyber threats.
 
